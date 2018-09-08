@@ -1,0 +1,22 @@
+  .mejs__mediaelement iframe {
+    pointer-events: none;
+  }
+  body .fa-search{
+    font-size: 20px;
+  }
+  body .btn-default{
+    background: orange;
+    width: 100%;
+    padding: 13px;
+  }
+  body .form-control{
+    padding: 12px;
+    font-size: 20px;
+  }
+  .vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 80vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
